@@ -19,7 +19,7 @@ class TestUserRegister(BaseCase):
     def test_create_user_successfully(self):
         data2 = self.prepare_registration_data()
         response = MyRequests.post(
-            "/api/user/",
+            "/user/",
             data=data2)
         print(response.text)
         print(response.status_code)
