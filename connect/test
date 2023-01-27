@@ -1,0 +1,542 @@
+{
+   "conversation_id":"ac1fc2cd-6166-4c71-85ce-8e5e96a8cb42",
+   "turn_number":2,
+   "dialog_mode":"onboarding_assessment",
+   "data":{
+      "type":"single_obj",
+      "text":"Do you want help understanding your Confide Beh
+avioral Health Navigator Benefits?",
+      "guidance":null,
+      "button_text":null,
+      "decline_button_text":null,
+      "options":[
+         {
+            "id":"1",
+            "answer":"Yes, learn more about Confide",
+            "description":null
+         },
+         {
+            "id":"2",
+            "answer":"Yes, connect me with an Advocate
+",
+            "description":null
+         },
+         {
+            "id":"3",
+            "answer":"None of these at this time",
+            "description":null
+         }
+      ],
+      "min":null,
+      "max":null,
+      "delay":4965,
+      "hours_min":null,
+      "hours_max":null,
+      "minutes_interval":null,
+      "default_time":null,
+      "date_min":null,
+      "date_max":"n
+ull",
+      "default_date":null,
+      "spinnable":null,
+      "alphanum":null,
+      "blank_enabled":null,
+      "width":null,
+      "placeholder":null,
+      "progress_bar":{
+         "overall":{
+            "current":"1",
+            "total":"8"
+         },
+         "bullet":{
+            "current":"0",
+            "total":"0"
+         }
+      },
+      "resources":{
+         "partner_logo":"",
+         "image":""
+      },
+      "media":{
+
+      },
+      "sidebar":{
+
+      },
+      "image":null,
+      "store_title_in_post":null,
+      "store_text_in_post":null,
+      "store_answer_in_post":null,
+      "undo_available":true,
+      "redo_client_input":null,
+      "end":null,
+      "save":null,
+      "complete":null,
+      "delete":null,
+      "
+redirect_path":null,
+      "consent_flow":null,
+      "consent_app_id":null
+   },
+   "runtime_data":{
+      "variables":[
+         {
+            "name":"understanding_confide",
+            "value":"1"
+         },
+         {
+            "name":"about_homelife",
+            "value":"True"
+         },
+         {
+            "name":"condition_support",
+            "value":"none"
+         },
+         {
+            "name":"t
+herapist_help",
+            "value":"True"
+         },
+         {
+            "name":"tr_mental_health",
+            "value":"1"
+         },
+         {
+            "name":"tr_emotional_problems",
+            "value":"1"
+         },
+         {
+            "name":"tr_activities_roles",
+            "value":"1"
+         },
+         {
+            "name":"tr_connected",
+            "value":"1"
+         }
+      ],
+      "conversation_context":{
+         "dialog_mode
+":"onboarding_assessment",
+         "locale":"en_US",
+         "app_id":"connect",
+         "user_agent":"python-requests/2.28.1",
+         "version_name":"live",
+         "conversation_id":"ac1fc2cd-6166-4c71-85ce-8e5e96a8cb42",
+         "user_id":1446,
+         "session_id":null,
+         "dialog_id":1287,
+         "ve
+rsion_number":1,
+         "log_conversation":true,
+         "debug_conversation":false,
+         "state_undo_enabled":true,
+         "dialog_package_id":null,
+         "dialog_package_policy":"strict",
+         "classifier_package_id":null,
+         "classifier_package_policy":"strict",
+         "dialog_uuid":"
+4077ad08-4b32-4763-9388-bda32119adc2",
+         "dialog_data":{
+            "id":1287,
+            "uuid":"4077ad08-4b32-4763-9388-bda32119adc2",
+            "name":"Connect",
+            "title":null,
+            "type":null
+         },
+         "resources":{
+            "partner_logo":"",
+            "image":""
+         },
+         "study_id":null,
+         "track_id":null
+      },
+      "con
+versation_context_changes":{
+
+      },
+      "path":"sections(cigna confide).nodes(confide1)",
+      "current_node":"confide1",
+      "current_section":"cigna confide",
+      "previous_node":"intro1",
+      "previous_section":"intro",
+      "error":null
+   },
+   "history":null,
+   "dialog_uuid
+":"4077ad08-4b32-4763-9388-bda32119adc2",
+   "dialog_name":"Connect",
+   "dialog_type":null,
+   "dialog_title":null,
+   "is_retry":false,
+   "is_error":false
+}{
+   "conversation_id":"ac1fc2cd-6166-4c71-85ce-8e5e96a8cb42",
+   "turn_number":3,
+   "dialog_mode":"onboarding_assessment",
+   "data":{
+      "type":"single_obj",
+      "text":"Do you want to learn more about available Home Life Referral Resources such as careg
+iving, financial and legal resources, career development, home improvement and more?",
+      "guidance":null,
+      "button_text":null,
+      "decline_button_text":null,
+      "options":[
+         {
+            "id":"1",
+            "answer":"Yes",
+            "description":null
+         },
+         {
+            "id":"0",
+            "answer":"No, not
+at this time",
+            "description":null
+         }
+      ],
+      "min":null,
+      "max":null,
+      "delay":523,
+      "hours_min":null,
+      "hours_max":null,
+      "minutes_interval":null,
+      "default_time":null,
+      "date_min":null,
+      "date_max":null,
+      "default_date":null,
+      "spinnable":null,
+      "alphanum":null,
+      "blank_enabled":null,
+      "width":null,
+      "placeholder":null,
+      "progress_bar":{
+         "overall":{
+            "current":"2",
+            "total":"8"
+         },
+         "bullet":{
+            "current":"0",
+            "total":"0"
+         }
+      },
+      "resources":{
+         "partner_logo":"",
+         "image":""
+      },
+      "media":{
+
+      },
+      "sidebar":{
+
+      },
+      "image":null,
+      "store_
+title_in_post":null,
+      "store_text_in_post":null,
+      "store_answer_in_post":null,
+      "undo_available":true,
+      "redo_client_input":null,
+      "end":null,
+      "save":null,
+      "complete":null,
+      "delete":null,
+      "redirect_path":null,
+      "consent_flow":null,
+      "consent_app_id":null
+   },
+   "runtime_data":{
+      "variables":[
+         {
+            "name":"understanding_confide",
+            "value":"2"
+         },
+         {
+            "name":"about_homelife",
+            "value":"True"
+         },
+         {
+            "name":"condition_support",
+            "value":"none"
+         },
+         {
+            "name":"therapist_help",
+            "value":"True"
+         },
+         {
+            "name":"tr_mental_health",
+            "value":"1"
+         },
+         {
+            "name":"tr_emotional_problems",
+            "value":"1"
+         },
+         {
+            "name":"tr_activities_roles",
+            "value":"1"
+         },
+         {
+            "name":"tr_connected",
+            "value":"1"
+         }
+      ],
+      "conversation_context":{
+         "dialog_mode":"onboarding_assessment",
+         "locale":"en_US",
+         "app_id":"conn
+ect",
+         "user_agent":"python-requests/2.28.1",
+         "version_name":"live",
+         "conversation_id":"ac1fc2cd-6166-4c71-85ce-8e5e96a8cb42",
+         "user_id":1446,
+         "session_id":null,
+         "dialog_id":1287,
+         "version_number":1,
+         "log_conversation":true,
+         "debug_conversati
+on":false,
+         "state_undo_enabled":true,
+         "dialog_package_id":null,
+         "dialog_package_policy":"strict",
+         "classifier_package_id":null,
+         "classifier_package_policy":"strict",
+         "dialog_uuid":"4077ad08-4b32-4763-9388-bda32119adc2",
+         "dialog_data":{
+            "id":1287,
+            "uuid":"4077ad08-4b32-4763-9388-bda32119adc2",
+            "name":"Connect",
+            "title":null,
+            "type":null
+         },
+         "resources":{
+            "partner_logo":"",
+            "image":""
+         },
+         "study_id":null,
+         "track_id":null
+      },
+      "conversation_context_changes":{
+
+      },
+      "path":"sections(cigna conf
+ide).nodes(confide2)",
+      "current_node":"confide2",
+      "current_section":"cigna confide",
+      "previous_node":"confide1",
+      "previous_section":"cigna confide",
+      "error":null
+   },
+   "history":null,
+   "dialog_uuid":"4077ad08-4b32-4763-9388-bda32119adc2",
+   "dialo
+g_name":"Connect",
+   "dialog_type":null,
+   "dialog_title":null,
+   "is_retry":false,
+   "is_error":false
+}{
+   "conversation_id":"ac1fc2cd-6166-4c71-85ce-8e5e96a8cb42",
+   "turn_number":4,
+   "dialog_mode":"onboarding_assessment",
+   "data":{
+      "type":"multi_obj",
+      "text":"Are you looking for support for a specific condition?",
+      "guidance":"Check all that app
+ly",
+      "button_text":null,
+      "decline_button_text":null,
+      "options":[
+         {
+            "id":"autism",
+            "answer":"Autism",
+            "description":null
+         },
+         {
+            "id":"bipolar_disorder",
+            "answer":"Bipolar Disorder",
+            "description":null
+         },
+         {
+            "id":"covid_stress",
+            "answer":"COVID19 Stress
+ or Anxiety",
+            "description":null
+         },
+         {
+            "id":"depression_anxiety",
+            "answer":"Depression or Anxiety",
+            "description":null
+         },
+         {
+            "id":"eating_disorders",
+            "answer":"Eating Disorders",
+            "description":null
+         },
+         {
+            "id":"med_evaluation",
+            "answer":"Medication Ev
+aluation",
+            "description":null
+         },
+         {
+            "id":"mental_health_treatment",
+            "answer":"Mental Health Treatment and Levels of Care",
+            "description":null
+         },
+         {
+            "id":"stress",
+            "answer":"Stress",
+            "description":null
+         },
+         {
+            "id":"substance_use",
+            "answer":"Substance U
+se",
+            "description":null
+         },
+         {
+            "id":"suicide_awareness",
+            "answer":"Suicide Awareness and Prevention",
+            "description":null
+         }
+      ],
+      "min":0,
+      "max":10,
+      "delay":523,
+      "hours_min":null,
+      "hours_max":null,
+      "minutes_interval":null,
+      "default_time":null,
+      "date_min":null,
+      "date_max":null,
+      "default_date":null,
+      "spinnable":null,
+      "alphanum":null,
+      "blank_enabled":null,
+      "width":null,
+      "placeholder":null,
+      "progress_bar":{
+         "overall":{
+            "current":"3",
+            "total":"8"
+         },
+         "bullet":{
+            "current":"0",
+            "total":"0"
+         }
+      },
+      "resources":{
+         "partner_logo":"",
+         "image":""
+      },
+      "media":{
+
+      },
+      "sidebar":{
+
+      },
+      "image":null,
+      "store_title_in_post":null,
+      "store_text_in_post":null,
+      "store_answer_in_post":null,
+      "undo_available":true,
+      "redo_client_input":null,
+      "end":null,
+      "save":null,
+      "complete":"nu
+ll",
+      "delete":null,
+      "redirect_path":null,
+      "consent_flow":null,
+      "consent_app_id":null
+   },
+   "runtime_data":{
+      "variables":[
+         {
+            "name":"understanding_confide",
+            "value":"2"
+         },
+         {
+            "name":"about_homelife",
+            "value":"True"
+         },
+         {
+            "name":"condition_support",
+            "value":"none"
+         },
+         {
+            "name":"therapist_help",
+            "value":"True"
+         },
+         {
+            "name":"tr_mental_health",
+            "value":"1"
+         },
+         {
+            "name":"tr_emotional_problems",
+            "value":"1"
+         },
+         {
+            "name":"tr_activities_roles",
+            "value":"1"
+         },
+         {
+            "name":"tr_connected",
+            "value":"1"
+         }
+      ],
+      "conversation_cont
+ext":{
+         "dialog_mode":"onboarding_assessment",
+         "locale":"en_US",
+         "app_id":"connect",
+         "user_agent":"python-requests/2.28.1",
+         "version_name":"live",
+         "conversation_id":"ac1fc2cd-6166-4c71-85ce-8e5e96a8cb42",
+         "user_id":1446,
+         "session_id":null,
+         "d
+ialog_id":1287,
+         "version_number":1,
+         "log_conversation":true,
+         "debug_conversation":false,
+         "state_undo_enabled":true,
+         "dialog_package_id":null,
+         "dialog_package_policy":"strict",
+         "classifier_package_id":null,
+         "classifier_package_policy":"stric
+t",
+         "dialog_uuid":"4077ad08-4b32-4763-9388-bda32119adc2",
+         "dialog_data":{
+            "id":1287,
+            "uuid":"4077ad08-4b32-4763-9388-bda32119adc2",
+            "name":"Connect",
+            "title":null,
+            "type":null
+         },
+         "resources":{
+            "partner_logo":"",
+            "image":""
+         },
+         "study_id":null,
+         "tr
+ack_id":null
+      },
+      "conversation_context_changes":{
+
+      },
+      "path":"sections(cigna confide).nodes(confide3)",
+      "current_node":"confide3",
+      "current_section":"cigna confide",
+      "previous_node":"confide2",
+      "previous_section":"cigna confide",
+      "error":null
+   },
+   "history":null,
+   "dialog_uuid":"4077ad08-4b32-4763-9388-bda32119adc2",
+   "dialog_name":"Connect",
+   "dialog_type":null,
+   "dialog_title":null,
+   "is_retry":false,
+   "is_error":false
+}{
+   "detail":"Unexpected Compass Response: 400 -> {'detail': \"Following IDs not found in 'multi_obj' options: 2\"} | http://compass_service.localhost/dialog/conversation/"
+}

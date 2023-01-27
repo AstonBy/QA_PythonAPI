@@ -3,7 +3,8 @@ from lib.logger import Logger
 import allure
 from environment import ENV_OBJECT
 
-class MyRequests():
+
+class MyRequests:
     @staticmethod
     def get(url: str, data: dict = None, headers: dict = None, cookies: dict = None):
         with allure.step(f"GET request to URL '{url}'"):
@@ -19,10 +20,9 @@ class MyRequests():
         with allure.step(f"PUT request to URL '{url}'"):
             return MyRequests._send(url, data, headers, cookies, "PUT")
 
-    @staticmethod
-    def delete(url: str, data: dict = None, headers: dict = None, cookies: dict = None):
+    def delete(self, url: str, data: dict = None, headers: dict = None, cookies: dict = None):
         with allure.step(f"DELETE request to URL '{url}'"):
-            return MyRequests._send(url, data, headers, cookies, "DELETE")
+            return self._send(url, data, headers, cookies, "DELETE")
 
     @staticmethod
     def _send(url: str, data: dict, headers: dict, cookies: dict, method: str):
@@ -35,6 +35,7 @@ class MyRequests():
             cookies = {}
 
         Logger.add_request(url, data, headers, cookies, method)
+
 
         if method == "GET":
             response = requests.get(url, params=data, headers=headers, cookies=cookies)

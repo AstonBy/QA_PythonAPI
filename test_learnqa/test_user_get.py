@@ -31,9 +31,7 @@ class TestUserGet(BaseCase):
                                  cookies={"auth_sid": auth_sid},
                                  headers={"x-csrf-token": token}
                                  )
-        print(response2.cookies)
-        print(response2.headers)
-        print(response2.text)
+
         expected_fields = ["username",
                            "id",
                            "email",

@@ -16,7 +16,6 @@ class TestUserEdit(BaseCase):
         email = register_data["email"]
         password = register_data["password"]
         first_name = register_data["firstName"]
-        print(first_name)
         user_id = self.get_json_value(response1, "id")
 
         # LOGIN
@@ -28,9 +27,6 @@ class TestUserEdit(BaseCase):
             data=login_data)
         auth_sid = self.get_cookie(response2, "auth_sid")
         token = self.get_header(response2, "x-csrf-token")
-        print(response2.cookies)
-        print(response2.headers)
-        print(response2.text)
 
         Assertions.assert_status_code(response2, 200)
 
@@ -42,9 +38,6 @@ class TestUserEdit(BaseCase):
                                  data={"firstName": new_name}
                                  )
         Assertions.assert_status_code(response3, 200)
-        print(response3.cookies)
-        print(response3.headers)
-        print(response3.text)
 
         # CHECK
 
@@ -52,8 +45,6 @@ class TestUserEdit(BaseCase):
                                  cookies={"auth_sid": auth_sid},
                                  headers={"x-csrf-token": token}
                                  )
-        print(response4.cookies)
-        print(response4.headers)
-        print(response4.text)
+
         Assertions.assert_status_code(response4, 200)
         Assertions.assert_json_value_by_name(response4, "firstName", new_name, f"First name is not changed after the edit")
