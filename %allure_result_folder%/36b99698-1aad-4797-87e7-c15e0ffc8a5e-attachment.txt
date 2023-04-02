@@ -1,4 +1,0 @@
-200
-<RequestsCookieJar[<Cookie auth_sid=6a691646770d00ab838a397b73f119f302e94918f1549272bcf2cafc2634fd9d for playground.learnqa.ru/api/user>]>
-{'Date': 'Tue, 03 Jan 2023 08:41:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '13', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache', 'Set-Cookie': 'auth_sid=6a691646770d00ab838a397b73f119f302e94918f1549272bcf2cafc2634fd9d', 'x-csrf-token': '8d0d84cc0d041381cd1985ef646805b6401ef81702e94918f1549272bcf2cafc2634fd9d', 'Cache-Control': 'max-age=0', 'Expires': 'Tue, 03 Jan 2023 08:41:39 GMT'}
-{"user_id":2}
