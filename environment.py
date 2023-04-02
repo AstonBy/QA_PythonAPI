@@ -1,6 +1,5 @@
 # import os
 #
-#
 # class Environment:
 #     DEV = 'dev'
 #     PROD = 'prod'
