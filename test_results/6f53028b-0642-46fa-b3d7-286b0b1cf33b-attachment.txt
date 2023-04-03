@@ -1,0 +1,5 @@
+4 - group_id
+200
+{"access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjbGllbnRfaWQiOiJnQUFBQUFCaXg5dE9jOWJyMGxfSFdZck5vdWxTYm5tNzZWRFlic09VM29NdVpDWDRzNS02LTlZcnJwTl85SHg5NFNDazVncnVZQWhWX3Fab0NOb0pBVHJtRERYMHZNcktxZz09Iiwic3ViIjoxNDI2LCJleHAiOjE2NzM1Mjc2MjZ9.9xBLi9TGlOkyI-0yLk0ziXSvpkzpsCpXcB4wLTGC5Vs"}
+<RequestsCookieJar[<Cookie ses=32a003603f72478e9fb682d8a7c6aef3 for qa06-connect.stage-twill.health/>]>
+{'Server': 'nginx', 'Date': 'Thu, 12 Jan 2023 12:46:07 GMT', 'Content-Type': 'application/json', 'Content-Length': '292', 'Connection': 'keep-alive', 'set-cookie': 'ceu=""; expires=Thu, 12 Jan 2023 12:46:07 GMT; Max-Age=0; Path=/; SameSite=lax, ses=32a003603f72478e9fb682d8a7c6aef3; HttpOnly; Max-Age=86400; Path=/; SameSite=lax; Secure', 'x-process-time': '824.3193626403809 ms', 'Strict-Transport-Security': 'max-age=31536000', 'X-XSS-Protection': '1; mode=block', 'X-Content-Type-Options': 'nosniff'}
